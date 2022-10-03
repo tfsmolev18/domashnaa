@@ -1,0 +1,96 @@
+public class Group
+{
+    private String name;
+    private String type;
+    private int members;
+    private int yearOfDebut;
+    private int awardsWon;
+    private int songs;
+
+    public String getName() 
+    {
+        return name;
+    }
+
+    public void setname(String name)
+    {
+        this.name = name;
+    }
+
+    public String geTtype() 
+    {
+        return type;
+    }
+
+    public void setType(String type) 
+    {
+        this.type = type;
+    }
+
+    public int getMembers() 
+    {
+        return members;
+    }
+
+    public void setMembers(int members)
+    {
+        this.members = members;
+    }
+
+    public int getYearOfDebut() 
+    {
+        return yearOfDebut;
+    }
+
+    public void setYearOfDebut(int yearOfDebut) 
+    {
+        this.yearOfDebut = yearOfDebut;
+    }
+
+    public int getAwardsWon() 
+    {
+        return awardsWon;
+    }
+
+    public void setAwardsWon(int awardsWon) 
+    {
+        this.awardsWon = awardsWon;
+    }
+
+    public songs getSongs() 
+    {
+        return songs;
+    }
+
+    public void setSongs(int songs)
+    {
+        this.songs = songs;
+    }
+
+
+
+    public group(String name, String type, int members, int yearOfDebut, int awardsWon)
+    {
+        this.name=name;
+        this.type=type;
+        this.members=members;
+        this.yearOfDebut=yearOfDebut;
+        this.awardsWon=awardsWon;
+	this.songs=songs;
+    }
+
+
+
+
+    @Override
+    public String toString()
+    {
+        return "Your freshly created group " +
+                "Name of the group -> " + name +
+                ", Type of the group -> " + type +
+                ", Count of members -> " + members +
+                ", Year the group has debuted in -> " + yearOfDebut +
+                ", Count of awards the group has won -> " + awardsWon +
+		", Count of songs in the group's official discography -> " + songs;
+    }
+}

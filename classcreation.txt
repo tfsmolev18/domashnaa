@@ -1,0 +1,11 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class NewGroup 
+{
+    public static void main(String[] args) 
+{
+        Group groupp = new Group("TWICE", "female", 9, 2015, 200, 167);
+    
+}
+}
